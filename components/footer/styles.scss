@@ -1,0 +1,6 @@
+.footerWrapper {
+    color: red;
+    &:hover {
+        color: yellow;
+    }
+}
