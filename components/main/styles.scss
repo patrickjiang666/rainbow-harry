@@ -1,0 +1,77 @@
+.backgroundImg{
+    display: block;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.mainWrapper {
+    display: block;
+    background-color: #fffff4;
+    padding-bottom: 96px;
+}
+
+.banner {
+    position: relative;
+}
+
+.links{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 100px;
+    z-index: 10;
+    margin-bottom: 48px;
+    a{
+        display: inline-block;
+        text-align: center;
+        background: #223430;
+        height: 50px;
+        width: 220px;
+        padding-left: 80px;
+        padding-right: 80px;
+        margin-top: 35px;
+        margin-bottom: 15px;
+        margin-right: 15px;
+
+    }
+
+}
+
+.socialLinks {
+      
+}
+
+.PageGreeting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 96px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+
+.welcome{
+    color: #6f9170;
+    font-size: 24px;
+    font-family: "Open Sans";
+    margin-bottom: 80px;
+}
+
+.story{
+    color: #6f9170;
+    font-size: 24px;
+    font-family: "Open Sans";
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.storycontent{
+    line-height: 2;
+    text-align: center;
+    color: #6f9170;
+    font-size: 16px;
+    font-family: "Open Sans";
+    max-width: 1024px;
+}
